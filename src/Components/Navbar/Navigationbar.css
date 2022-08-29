@@ -1,0 +1,61 @@
+.n-wrapper {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+
+}
+
+/* navbar left */
+.n-left {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 2rem;
+}
+
+.name {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* navbar right */
+.n-right {
+  display: flex;
+  flex: 1;
+  font-weight: 400;
+}
+
+.n-list {
+  flex: 10;
+
+}
+
+.n-list ul li {
+  display: block;
+  text-decoration: none;
+}
+
+.n-list ul {
+  display: flex;
+  gap: 2rem;
+  margin-right: 4rem;
+}
+
+.n-list ul li:hover {
+
+  color: var(--orange);
+  border-radius: 20px;
+  box-shadow: 0px 20px 24px 3px rgb(251, 161, 40, 0.42);
+  transform: scale(1.1);
+}
+
+.n-button {
+  flex: 2;
+}
+
+@media screen and (max-width:480px) {
+  .n-list {
+    display: none;
+  }
+}

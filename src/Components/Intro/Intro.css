@@ -1,0 +1,128 @@
+.intro {
+  display: flex;
+  /* justify-content: space-between; */
+  height: 77vh;
+  margin-top: 6rem;
+}
+
+/* intro left menu */
+.i-left {
+  flex: 1;
+  /* position: relative;
+  flex-direction: column; */
+}
+
+.i-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.i-name>:nth-child(1) {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 3rem;
+  /* box-shadow: 0px 20px 24px 3px rgba(112, 108, 102, 0.42); */
+}
+
+.i-name>:nth-child(2) {
+  color: var(--orange);
+  font-weight: bold;
+  font-size: 3rem;
+  box-shadow: var(--titleShadow);
+}
+
+.i-name>:nth-child(3) {
+  color: var(--gray);
+  font-weight: 100;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.i-button {
+  margin-top: 10px;
+}
+
+.icons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icons>* {
+  transform: scale(0.5);
+  cursor: pointer;
+}
+
+.icons>*:hover {
+  transform: scale(0.75);
+}
+
+/* intro right menu */
+.i-right {
+  flex: 1;
+  position: relative;
+
+}
+
+.i-right>* {
+  position: absolute;
+  z-index: 1;
+}
+
+/* vector blue */
+.i-right>:nth-child(1) {
+  transform: scale(.69);
+  left: -15%;
+  top: -18%;
+}
+
+/* vector yellow */
+.i-right>:nth-child(2) {
+  top: -7.2rem;
+  transform: scale(.67);
+  left: -3rem;
+}
+
+.i-right>:nth-child(3) {
+  transform: scale(1.1);
+  left: 9.5rem;
+  top: 3rem;
+  border-radius: 50%;
+  border: 2px solid rgb(147, 165, 255);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media screen and (max-width:480px) {
+  .intro {
+    flex-direction: column;
+    margin-top: 12.5rem;
+    height: 60vh;
+  }
+
+  .i-right>:nth-child(3) {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 0 10%;
+    border: 2px solid var(--orange);
+    margin-top: -51.5rem;
+  }
+
+  .i-right {
+    transform: scale(0.7);
+    right: 5.3rem;
+  }
+
+  .i-right>:nth-child(1) {
+    display: none;
+  }
+
+  .i-right>:nth-child(2) {
+    display: none;
+  }
+
+  .i-name>:nth-child(2) {
+    box-shadow: none;
+  }
+
+}
