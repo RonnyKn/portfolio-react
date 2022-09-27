@@ -16,8 +16,8 @@ const Services = () => {
         <div className="s-left">
 
           <span>My Awesome</span>
-          <span>Services</span>
-          <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis impedit ipsam dolor sed, expedita voluptatem.</span>
+          <span>Skills</span>
+          {/* <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis impedit ipsam dolor sed, expedita voluptatem.</span> */}
           <a href={Resume} download>
             <button className='button s-button'>
               Download CV
@@ -37,7 +37,7 @@ const Services = () => {
               <Cards
                 emoji={HeartEmoji}
                 heading={'Design'}
-                detail={"Figma, sketch, Adobe Photoshop"}
+                detail={"Figma, Adobe Photoshop"}
               />
             </motion.div>
 
@@ -50,8 +50,8 @@ const Services = () => {
               style={{ top: '11rem', left: '-4rem' }}>
               <Cards
                 emoji={Glasses}
-                heading={'Developer'}
-                detail={"Html, Css, Javascript, Bootstrap, React Js, React Bootstrap"}
+                heading={'Programming'}
+                detail={"HTML, Css, Javascript, React Js,React Bootstrap, Material UI, GitHub"}
               />
             </motion.div>
 
@@ -64,8 +64,8 @@ const Services = () => {
               style={{ top: '19rem', left: '12rem' }}>
               <Cards
                 emoji={Humble}
-                heading={'UI/UX'}
-                detail={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, recusandae."}
+                heading={'Others'}
+                detail={"Teamwork & Communication skills, Problem solving, Troubleshooting PC"}
               />
             </motion.div>
 

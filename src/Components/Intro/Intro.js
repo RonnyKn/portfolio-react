@@ -19,7 +19,7 @@ const Intro = () => {
         <div className="i-name">
           <span>Hi! I am</span>
           <span>Ronny Kurniawan</span>
-          <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti quae sint ab delectus, officia magni dolorem ullam dolore excepturi!</span><br />
+          <span>I design and build user interface website. I've graduated from D-III Computer and Information System Gadjah Mada University. Mastering web design and  information systems, internship experience at BPJS Ketenagakerjaan  Purwokerto for 2 months and working experience at Stanford Teknologi Indonesia as a Digital Content Specialist</span><br />
         </div>
         <Link spy={true} to='Contact' smooth={true} >
           <button className='button i-button'>Hire Me</button>

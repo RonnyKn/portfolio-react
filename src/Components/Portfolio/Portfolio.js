@@ -2,9 +2,9 @@ import './Portfolio.css'
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react'
 import SideBar from '../../img/sidebar.png'
-import Ecommerce from '../../img/ecommerce.png'
 import Hoc from '../../img/hoc.png'
 import MusicApp from '../../img/musicapp.png'
+import RonsEntertainment from '../../img/rons.jpg'
 import 'swiper/css'
 import { Pagination } from 'swiper'
 import 'swiper/css/pagination'
@@ -32,7 +32,10 @@ const Portfolio = () => {
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Ecommerce} alt="" />
+            <a href="https://rons-entertainment.netlify.app/" target="_blank" rel="noreferrer">
+              <img src={RonsEntertainment} alt="" />
+            </a>
+            {/* <p className='sub-portfolio'>movie website with Reactjs & Material UI</p> */}
           </SwiperSlide>
           <SwiperSlide>
             <img src={Hoc} alt="" />
