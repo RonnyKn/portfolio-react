@@ -59,7 +59,7 @@
   width: 170px;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:767px) {
   .c-container {
     margin-bottom: 5rem;
   }

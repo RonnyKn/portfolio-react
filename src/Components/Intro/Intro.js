@@ -30,10 +30,10 @@ const Intro = () => {
           <a href='http://www.instagram.com/ronny.kn/' target='_blank' rel="noreferrer"><img src={Instagram} alt='' /></a>
         </div>
       </div>
-      <div className='i-right'>
+      <div className='i-right' >
         <img src={Vector1} alt='' />
         <img src={Vector2} alt='' />
-        <img src={Profile} alt='' />
+        <img src={Profile} alt='foto' />
       </div>
     </div>
 

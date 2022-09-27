@@ -1,6 +1,6 @@
 .portfolio {
   height: 80vh;
-
+  background: linear-gradient(180deg, rgb(255, 254, 196) 0%, rgba(255, 255, 160, 0) 100%);
 }
 
 .p-heading {
@@ -55,9 +55,9 @@
   top: 250px;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:767px) {
   .portfolio {
-    margin-top: 20rem;
+    margin-top: 15rem;
   }
 
   .p-heading span:nth-child(2) {
