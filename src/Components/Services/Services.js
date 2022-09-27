@@ -1,12 +1,12 @@
 import './Services.css'
 import React from 'react';
-import HeartEmoji from '../../img/heartemoji.png'
-import Glasses from '../../img/glasses.png'
+import Code from '../../img/code.png'
+import User from '../../img/user.png'
+import Design from '../../img/design.png'
 import Humble from '../../img/humble.png'
 import Cards from '../Cards/Cards';
 import Resume from './resume.pdf'
 import { motion } from 'framer-motion'
-
 
 const Services = () => {
   const transition = { duration: 3, type: 'spring' }
@@ -35,9 +35,9 @@ const Services = () => {
               className='design-card'
               style={{ left: '14rem' }} >
               <Cards
-                emoji={HeartEmoji}
-                heading={'Design'}
-                detail={"Figma, Adobe Photoshop"}
+                emoji={Design}
+                heading={'Tools'}
+                detail={"Visual Studio Code, Figma, Adobe Photoshop, GitHub"}
               />
             </motion.div>
 
@@ -49,13 +49,12 @@ const Services = () => {
               className='dev-card'
               style={{ top: '11rem', left: '-4rem' }}>
               <Cards
-                emoji={Glasses}
+                emoji={Code}
                 heading={'Programming'}
-                detail={"HTML, Css, Javascript, React Js,React Bootstrap, Material UI, GitHub"}
+                detail={"HTML, Css, Javascript, React Js,React Bootstrap, Material UI"}
               />
             </motion.div>
 
-            {/* UI/UX card */}
             <motion.div
               initial={{ top: "19rem", left: "25rem" }}
               whileInView={{ left: "12rem" }}
@@ -63,7 +62,7 @@ const Services = () => {
               className='ui-card'
               style={{ top: '19rem', left: '12rem' }}>
               <Cards
-                emoji={Humble}
+                emoji={User}
                 heading={'Others'}
                 detail={"Teamwork & Communication skills, Problem solving, Troubleshooting PC"}
               />

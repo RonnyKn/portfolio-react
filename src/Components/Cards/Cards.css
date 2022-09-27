@@ -1,5 +1,5 @@
 .card {
-  height: 12rem;
+  height: 10rem;
   width: 9rem;
   position: absolute;
   display: flex;
@@ -16,7 +16,7 @@
 
 .card>img {
   transform: scale(.7);
-  margin-bottom: -2rem;
+  margin-bottom: -1.25rem;
 }
 
 
